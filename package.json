@@ -1,0 +1,40 @@
+{
+  "name": "brackets-coffeelint",
+  "version": "1.9.4",
+  "description": "Adds Coffeelint support to Brackets",
+  "keywords": [
+    "brackets-extension",
+    "coffeelint",
+    "lint",
+    "linting",
+    "linter"
+  ],
+  "homepage": "https://github.com/zaggino/brackets-coffeelint",
+  "bugs": "https://github.com/zaggino/brackets-coffeelint/issues",
+  "license": "MIT",
+  "author": {
+    "name": "Martin Zagora",
+    "email": "zaggino@gmail.com",
+    "url": "https://github.com/zaggino"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zaggino/brackets-coffeelint.git"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "coffee-script": "^1.9.2",
+    "coffeelint": "^1.9.4"
+  },
+  "devDependencies": {
+    "gulp": "3.x",
+    "gulp-eslint": "0.x",
+    "gulp-util": "3.x",
+    "through2": "0.x"
+  },
+  "engines": {
+    "brackets": ">=1.2.0"
+  }
+}
