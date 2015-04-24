@@ -1,8 +1,8 @@
-# Coffeelint [![Build Status](https://travis-ci.org/zaggino/brackets-coffeelint.svg?branch=master)](https://travis-ci.org/zaggino/brackets-coffeelint)
+# CoffeeLint [![Build Status](https://travis-ci.org/zaggino/brackets-coffeelint.svg?branch=master)](https://travis-ci.org/zaggino/brackets-coffeelint)
 
-Brackets extension which provides file linting with Coffeelint.
+Brackets extension which provides file linting with CoffeeLint.
 
-Uses Coffeelint from [https://www.npmjs.com/package/coffeelint](https://www.npmjs.com/package/coffeelint)
+Uses CoffeeLint from [https://www.npmjs.com/package/coffeelint](https://www.npmjs.com/package/coffeelint)
 
 ## How to install
 

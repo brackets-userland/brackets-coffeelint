@@ -10,7 +10,7 @@ define(function (require, exports, module) {
   var NodeDomain = brackets.getModule('utils/NodeDomain');
 
   // constants
-  var LINTER_NAME = 'Coffeelint';
+  var LINTER_NAME = 'CoffeeLint';
   var nodeDomain = new NodeDomain('zaggino.brackets-coffeelint', ExtensionUtils.getModulePath(module, 'domain'));
 
   // this will map ESLint output to match format expected by Brackets
@@ -37,7 +37,7 @@ define(function (require, exports, module) {
   }
 
   function handleLintSync(text, fullPath) {
-    throw new Error('Coffeelint sync is not available, use async for ' + fullPath);
+    throw new Error(LINTER_NAME + ' sync is not available, use async for ' + fullPath);
   }
 
   function handleLintAsync(text, fullPath) {

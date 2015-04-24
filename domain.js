@@ -21,7 +21,7 @@
 
   var fs = require('fs');
   var CoffeeScript = require('coffee-script');
-  var Coffeelint = require('coffeelint/lib/coffeelint');
+  var CoffeeLint = require('coffeelint/lib/coffeelint');
   var Configfinder = require('coffeelint/lib/configfinder');
 
   var currentConfig;
@@ -51,7 +51,7 @@
       _setProjectRoot(projectRoot);
       currentProjectRoot = projectRoot;
     }
-    var errorReport = new Coffeelint.getErrorReport();
+    var errorReport = new CoffeeLint.getErrorReport();
     var source = fs.readFileSync(fullPath, {encoding: 'utf-8'});
     var config = currentConfig || Configfinder.getConfig(fullPath);
     var literate = CoffeeScript.helpers.isLiterate(fullPath);
