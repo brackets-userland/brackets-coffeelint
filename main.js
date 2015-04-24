@@ -19,7 +19,7 @@ define(function (require, exports, module) {
       errors: results.map(function (result) {
         var message = result.message;
         if (result.context) {
-          message += ' (' + result.name + ')';
+          message += ' (' + result.context + ')';
         }
         if (result.name) {
           message += ' [' + result.name + ']';
