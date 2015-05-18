@@ -25,8 +25,9 @@
     "test": "gulp test"
   },
   "dependencies": {
-    "coffee-script": "^1.9.2",
-    "coffeelint": "^1.9.4"
+    "coffee-script": "latest",
+    "coffeelint": "latest",
+    "enable-global-packages": "latest"
   },
   "devDependencies": {
     "gulp": "3.x",
