@@ -1,6 +1,6 @@
 {
   "name": "brackets-coffeelint",
-  "version": "1.9.4",
+  "version": "1.9.5",
   "description": "Adds CoffeeLint support to Brackets",
   "keywords": [
     "brackets-extension",
