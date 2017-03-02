@@ -1,6 +1,9 @@
 {
   "name": "brackets-coffeelint",
-  "version": "1.12.1",
+  "version": "1.12.2",
+  "engines": {
+    "brackets": ">=1.9.0"
+  },
   "title": "CoffeeLint",
   "description": "Adds CoffeeLint support to Brackets",
   "keywords": [
@@ -35,8 +38,5 @@
     "gulp-eslint": "0.x",
     "gulp-util": "3.x",
     "through2": "0.x"
-  },
-  "engines": {
-    "brackets": ">=1.2.0"
   }
 }
